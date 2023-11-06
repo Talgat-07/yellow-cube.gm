@@ -1,0 +1,705 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 1400px;
+  height: 700px;
+  background-color: aqua;
+  border: 10px solid black;
+  margin: 20px auto;
+  position: relative;
+}
+.red {
+  background-color: red;
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.lol1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+.lol2 {
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+}
+.lol3 {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 20px;
+}
+.lol4 {
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+}
+.lol5 {
+  width: 150px;
+  height: 20px;
+  top: 270px;
+  left: 600px;
+}
+.lol6 {
+  width: 150px;
+  height: 20px;
+  top: 350px;
+  left: 600px;
+}
+.lol7 {
+  width: 20px;
+  height: 60px;
+  top: 270px;
+  left: 600px;
+}
+.lol8 {
+  width: 20px;
+  height: 90px;
+  top: 270px;
+  left: 730px;
+}
+.lol9 {
+  width: 200px;
+  height: 20px;
+  top: 310px;
+  left: 420px;
+}
+.lol10 {
+  width: 200px;
+  height: 20px;
+  top: 350px;
+  left: 400px;
+}
+.lol11 {
+  width: 20px;
+  height: 150px;
+  top: 220px;
+  left: 380px;
+}
+.lol12 {
+  width: 20px;
+  height: 150px;
+  top: 180px;
+  left: 420px;
+}
+.lol13 {
+  width: 200px;
+  height: 20px;
+  top: 160px;
+  left: 340px;
+}
+.lol14 {
+  width: 100px;
+  height: 20px;
+  top: 200px;
+  left: 300px;
+}
+.lol15 {
+  width: 20px;
+  height: 100px;
+  top: 120px;
+  left: 300px;
+}
+.lol16 {
+  width: 240px;
+  height: 20px;
+  top: 120px;
+  left: 320px;
+}
+.lol17 {
+  width: 20px;
+  height: 90px;
+  top: 120px;
+  left: 560px;
+}
+.lol18 {
+  width: 20px;
+  height: 90px;
+  top: 160px;
+  left: 520px;
+}
+.lol19 {
+  width: 340px;
+  height: 20px;
+  top: 230px;
+  left: 520px;
+}
+.lol20 {
+  width: 260px;
+  height: 20px;
+  top: 190px;
+  left: 560px;
+}
+.lol21 {
+  width: 20px;
+  height: 150px;
+  top: 80px;
+  left: 840px;
+}
+.lol22 {
+  width: 20px;
+  height: 150px;
+  top: 40px;
+  left: 800px;
+}
+.lol23 {
+  width: 500px;
+  height: 20px;
+  top: 40px;
+  left: 820px;
+}
+.lol24 {
+  width: 440px;
+  height: 20px;
+  top: 80px;
+  left: 840px;
+}
+.lol25 {
+  width: 20px;
+  height: 210px;
+  top: 40px;
+  left: 1300px;
+}
+.lol26 {
+  width: 20px;
+  height: 130px;
+  top: 80px;
+  left: 1260px;
+}
+.lol27 {
+  width: 140px;
+  height: 20px;
+  top: 230px;
+  left: 1180px;
+}
+.lol28 {
+  width: 60px;
+  height: 20px;
+  top: 190px;
+  left: 1220px;
+}
+.lol29 {
+  width: 20px;
+  height: 80px;
+  top: 170px;
+  left: 1180px;
+}
+.lol30 {
+  width: 20px;
+  height: 80px;
+  top: 130px;
+  left: 1220px;
+}
+.lol31 {
+  width: 140px;
+  height: 20px;
+  top: 130px;
+  left: 1100px;
+}
+.lol32 {
+  width: 20px;
+  height: 80px;
+  top: 130px;
+  left: 1100px;
+}
+.lol33 {
+  width: 60px;
+  height: 20px;
+  top: 170px;
+  left: 1140px;
+}
+.lol34 {
+  width: 20px;
+  height: 80px;
+  top: 170px;
+  left: 1140px;
+}
+.lol35 {
+  width: 120px;
+  height: 20px;
+  top: 230px;
+  left: 1040px;
+}
+.lol36 {
+  width: 60px;
+  height: 20px;
+  top: 190px;
+  left: 1060px;
+}
+.lol37 {
+  width: 20px;
+  height: 80px;
+  top: 130px;
+  left: 1060px;
+}
+.lol38 {
+  width: 20px;
+  height: 80px;
+  top: 170px;
+  left: 1020px;
+}
+.lol39 {
+  width: 160px;
+  height: 20px;
+  top: 130px;
+  left: 900px;
+}
+.lol40 {
+  width: 80px;
+  height: 20px;
+  top: 170px;
+  left: 940px;
+}
+.lol41 {
+  width: 20px;
+  height: 140px;
+  top: 170px;
+  left: 940px;
+}
+.lol42 {
+  width: 20px;
+  height: 160px;
+  top: 130px;
+  left: 900px;
+}
+.lol43 {
+  width: 140px;
+  height: 20px;
+  top: 270px;
+  left: 780px;
+}
+.lol44 {
+  width: 140px;
+  height: 20px;
+  top: 310px;
+  left: 820px;
+}
+.lol45 {
+  width: 20px;
+  height: 140px;
+  top: 270px;
+  left: 780px;
+}
+.lol46 {
+  width: 20px;
+  height: 80px;
+  top: 310px;
+  left: 820px;
+}
+.lol47 {
+  width: 240px;
+  height: 20px;
+  top: 410px;
+  left: 780px;
+}
+.lol48 {
+  width: 180px;
+  height: 20px;
+  top: 370px;
+  left: 820px;
+}
+.lol49 {
+  width: 20px;
+  height: 120px;
+  top: 270px;
+  left: 980px;
+}
+.lol50 {
+  width: 340px;
+  height: 20px;
+  top: 270px;
+  left: 980px;
+}
+.lol51 {
+  width: 20px;
+  height: 120px;
+  top: 310px;
+  left: 1020px;
+}
+.lol52 {
+  width: 260px;
+  height: 20px;
+  top: 310px;
+  left: 1020px;
+}
+.lol53 {
+  width: 20px;
+  height: 310px;
+  top: 290px;
+  left: 1300px;
+}
+.lol54 {
+  width: 20px;
+  height: 250px;
+  top: 310px;
+  left: 1260px;
+}
+.lol55 {
+  width: 1260px;
+  height: 20px;
+  top: 580px;
+  left: 60px;
+}
+.lol56 {
+  width: 1180px;
+  height: 20px;
+  top: 540px;
+  left: 100px;
+}
+.lol57 {
+  width: 20px;
+  height: 190px;
+  top: 410px;
+  left: 60px;
+}
+.lol58 {
+  width: 20px;
+  height: 110px;
+  top: 450px;
+  left: 100px;
+}
+.lol59 {
+  width: 220px;
+  height: 20px;
+  top: 410px;
+  left: 60px;
+}
+.lol60 {
+  width: 220px;
+  height: 20px;
+  top: 450px;
+  left: 100px;
+}
+.lol61 {
+  width: 20px;
+  height: 220px;
+  top: 250px;
+  left: 320px;
+}
+.lol62 {
+  width: 20px;
+  height: 140px;
+  top: 290px;
+  left: 280px;
+}
+.lol63 {
+  width: 240px;
+  height: 20px;
+  top: 250px;
+  left: 100px;
+}
+.lol64 {
+  width: 240px;
+  height: 20px;
+  top: 290px;
+  left: 60px;
+}
+.lol64 {
+  width: 240px;
+  height: 20px;
+  top: 290px;
+  left: 60px;
+}
+.lol65 {
+  width: 20px;
+  height: 270px;
+  top: 40px;
+  left: 60px;
+}
+.lol66 {
+  width: 680px;
+  height: 20px;
+  top: 40px;
+  left: 60px;
+}
+.lol67 {
+  width: 20px;
+  height: 190px;
+  top: 80px;
+  left: 100px;
+}
+.lol68 {
+  width: 600px;
+  height: 20px;
+  top: 80px;
+  left: 100px;
+}
+.lol69 {
+  width: 20px;
+  height: 100px;
+  top: 40px;
+  left: 720px;
+}
+.lol70 {
+  width: 20px;
+  height: 80px;
+  top: 80px;
+  left: 680px;
+}
+.lol71 {
+  width: 40px;
+  height: 20px;
+  top: 140px;
+  left: 700px;
+}
+.lol72 {
+  width: 20px;
+  height: 20px;
+  top: 120px;
+  left: 700px;
+  background-color: green;
+}
+.kub {
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  top: 140px;
+  left: 320px;
+  animation: a-kub 40s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes a-kub {
+  0% {
+    top: 140px;
+    left: 320px;
+  }
+  3.5% {
+    top: 140px;
+    left: 540px;
+  }
+  7% {
+    top: 210px;
+    left: 540px;
+  }
+  10.5% {
+    top: 210px;
+    left: 820px;
+  }
+  14% {
+    top: 60px;
+    left: 820px;
+  }
+  17.5% {
+    top: 60px;
+    left: 1280px;
+  }
+  21% {
+    top: 210px;
+    left: 1280px;
+  }
+  24.5% {
+    top: 210px;
+    left: 1200px;
+  }
+  28% {
+    top: 150px;
+    left: 1200px;
+  }
+  31.5% {
+    top: 150px;
+    left: 1120px;
+  }
+  35% {
+    top: 210px;
+    left: 1120px;
+  }
+  38.5% {
+    top: 210px;
+    left: 1040px;
+  }
+  42% {
+    top: 150px;
+    left: 1040px;
+  }
+  45.5% {
+    top: 150px;
+    left: 920px;
+  }
+  49% {
+    top: 290px;
+    left: 920px;
+  }
+  52.5% {
+    top: 290px;
+    left: 800px;
+  }
+  56% {
+    top: 390px;
+    left: 800px;
+  }
+  59.5% {
+    top: 390px;
+    left: 1000px;
+  }
+  63% {
+    top: 290px;
+    left: 1000px;
+  }
+  66.5% {
+    top: 290px;
+    left: 1280px;
+  }
+  70% {
+    top: 560px;
+    left: 1280px;
+  }
+  75.5% {
+    top: 560px;
+    left: 80px;
+  }
+  79% {
+    top: 430px;
+    left: 80px;
+  }
+  82.5% {
+    top: 430px;
+    left: 300px;
+  }
+  84% {
+    top: 270px;
+    left: 300px;
+  }
+  89.5% {
+    top: 270px;
+    left: 80px;
+  }
+  93% {
+    top: 60px;
+    left: 80px;
+  }
+  96.5% {
+    top: 60px;
+    left: 700px;
+  }
+  100% {
+    top: 120px;
+    left: 700px;
+  }
+}
+.span_g {
+  font-size: 72px;
+  color: red;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 20%;
+  left: 39%;
+  text-shadow: 5px 5px 5px black;
+}
+.span_t {
+  font-size: 52px;
+  color: red;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 31%;
+  left: 43%;
+  text-shadow: 5px 5px 5px black;
+}
+.vspan_g {
+  font-size: 72px;
+  color: red;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 20%;
+  left: 43%;
+  text-shadow: 5px 5px 5px black;
+}
+.alt {
+  margin-top: 337px;
+  margin-left: 735px;
+}
+.alt_a {
+  font-size: 1.3em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 5.5px 5px 5px 5px;
+  background-color: aqua;
+  border: 3px solid black;
+}
+.alt2 {
+  margin-top: -25px;
+  margin-left: 810px;
+}
+.alt22 {
+  margin-top: 320px;
+  margin-left: 750px;
+}
+.alt_a2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: aqua;
+  border: 3px solid black;
+}
+.fi {
+  min-width: 1558px;
+  height: 758px;
+  background-color: blueviolet;
+  position: absolute;
+  top: -30px;
+  left: -100px;
+  display: none;
+  z-index: 5;
+}
+.fi_time {
+  min-width: 1558px;
+  height: 758px;
+  background-color: blueviolet;
+  position: absolute;
+  top: -30px;
+  left: -100px;
+  overflow: hidden;
+  animation: time 40s linear;
+  z-index: 4;
+}
+@keyframes time {
+  0% {
+    min-width: 0px;
+    height: 0px;
+  }
+  99.9% {
+    min-width: 0px;
+    height: 0px;
+  }
+  100% {
+    min-width: 1558px;
+    height: 758px;
+  }
+}
+.kr {
+  min-width: 1558px;
+  height: 758px;
+  background-color: #fff700;
+  position: absolute;
+  top: -30px;
+  left: -100px;
+  display: none;
+  z-index: 6;
+}
+.kub:hover ~ .kr {
+  display: block;
+}
+.red:hover ~ .fi {
+  display: block;
+}
+.green:hover ~ .fi {
+  display: block;
+}
+.fi:hover {
+  display: block;
+}
+.kr:hover {
+  display: block;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div {
+  position: absolute;
+  top: 340px;
+  left: 725px;
+  z-index: 100;
+}
+.a {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: aqua;
+  border: 3px solid black;
+  cursor: pointer;
+}
+.pa {
+  position: absolute;
+}
+.bg01 {
+  font-size: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 50px;
+  left: 450px;
+  color: rgb(191, 191, 191);
+  text-shadow: 8px 8px 10px gray;
+  cursor: default;
+}
+.cuub {
+  width: 40px;
+  height: 40px;
+  top: 50px;
+  left: 300px;
+  background-color: yellow;
+  animation: cuub_a 10s linear;
+  animation-iteration-count: infinite;
+}
+.cuur {
+  width: 35px;
+  height: 35px;
+  background: url(img/icons8-cursor.svg);
+  top: 52px;
+  left: 300px;
+  animation: cuur_a 10s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+@keyframes cuub_a {
+  0% {
+    top: 50px;
+    left: 300px;
+  }
+  25% {
+    top: 50px;
+    left: 1200px;
+  }
+  50% {
+    top: 600px;
+    left: 1200px;
+  }
+  75% {
+    top: 600px;
+    left: 300px;
+  }
+  100% {
+    top: 50px;
+    left: 300px;
+  }
+}
+@keyframes cuur_a {
+  0% {
+    top: 52px;
+    left: 300px;
+  }
+  25% {
+    top: 52px;
+    left: 1200px;
+  }
+  50% {
+    top: 600px;
+    left: 1202px;
+  }
+  75% {
+    top: 602px;
+    left: 300px;
+  }
+  100% {
+    top: 52px;
+    left: 300px;
+  }
+}
